@@ -1462,8 +1462,8 @@ end
  _G.BGColor_2 = Color3.fromRGB(20, 20, 20)
  _G.WindowBackgroundColor = Color3.fromRGB(12,12,12)
  _G.BackgroundItemColor = Color3.fromRGB(20, 20, 20)
- _G.TabWindowColor = Color3.fromRGB(30, 30, 30)
- _G.ContainerColor = Color3.fromRGB(30, 30, 30)
+ _G.TabWindowColor = Color3.fromRGB(25, 25, 25)
+ _G.ContainerColor = Color3.fromRGB(25, 25, 25)
  _G.TitleTextColor = Color3.fromRGB(150, 150, 150)
  _G.ImageColor = Color3.fromRGB(150, 150, 150)
  _G.LineThemeColor = Color3.fromRGB(150, 150, 150)
@@ -5803,7 +5803,7 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 wait(1)
 Notification:Notify(
-   {Title = "MADOX HUB", Description = "You Have Max Observation"},
+   {Title = "BLOX FRUIT", Description = "You Have Max Observation"},
    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
