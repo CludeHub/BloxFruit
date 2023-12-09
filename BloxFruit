@@ -9,7 +9,8 @@
 -- Thunder Lib
 -- Second is Blox Fruit Hub
 
---
+-- Line 11366 | Script 46 | Toggle 44 |
+
 local ThunderScreen = Instance.new("ScreenGui")
 local ThunderToggleUI = Instance.new("TextButton")
 local ThunderCornerUI = Instance.new("UICorner")
