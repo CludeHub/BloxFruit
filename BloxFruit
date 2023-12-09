@@ -9,7 +9,7 @@
 -- Thunder Lib
 -- Second is Blox Fruit Hub
 
--- Line 11367 | Script 46 | Toggle 44 |
+-- Line 11388 | Script 48 | Toggle 44 |
 
 wait(1)
 local function callback(text)
