@@ -11,6 +11,27 @@
 
 -- Line 11367 | Script 46 | Toggle 44 |
 
+wait(1)
+local function callback(text)
+    if text == "Yes" then
+    print("User said yes")
+    elseif text == "No" then
+    print("User said no")
+    end
+end
+ 
+local bindableFunction= Instance.new("BindableFunction")
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "CludeHub";
+    Text = "Thanks for using my script join my discord for more";
+    Icon = "rbxassetid://15564662251";
+    Duration = "16";
+    callback = bindableFunction;
+    Button1 = "join discord";
+    Button2 = "no";
+})
+wait(0.1)
 local ThunderScreen = Instance.new("ScreenGui")
 local ThunderToggleUI = Instance.new("TextButton")
 local ThunderCornerUI = Instance.new("UICorner")
